@@ -1,0 +1,36 @@
+{
+  "extends": ["tslint:latest", "tslint-react", "tslint-microsoft-contrib", "tslint-consistent-codestyle", "vrsource-tslint-rules", "tslint-eslint-rules"],
+  "cliOptions": {
+    "exclude": [
+      "node_modules"
+    ]
+  },
+  "linterOptions": {
+    "typeCheck": true
+  },
+  "rules": {
+    "missing-jsdoc": false,
+    "no-submodule-imports": false,
+    "object-literal-sort-keys": false,
+    "completed-docs": false,
+    "no-any": false,
+    "no-unsafe-any": false,
+    "import-name": false,
+    "react-tsx-curly-spacing": false,
+    "newline-before-return": false,
+    "no-backbone-get-set-outside-model": false,
+    "quotemark": false,
+    "member-ordering": false,
+    "jsx-no-multiline-js": false,
+    "no-require-imports": false,
+    "ordered-imports": false,
+    "no-default-export": false,
+    "export-name": false,
+    "strict-boolean-expressions": false,
+    "no-import-side-effect": false,
+    "no-relative-imports": false,
+    "no-var-requires": false,
+    "react-a11y-event-has-role": false,
+    "no-implicit-dependencies": false
+  }
+}

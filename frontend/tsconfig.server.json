@@ -1,0 +1,33 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "lib": ["dom", "es2017"],
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "types": ["node", "webpack-env"],
+    "baseUrl": "./src/",
+    "paths": {
+      "*": ["./@types/*"],
+      "actions*": ["actions*"],
+      "reducers*": ["reducers*"],
+      "constants*": ["constants*"],
+      "components*": ["components*"],
+      "containers*": ["containers*"],
+      "store*": ["store*"],
+      "styles*": ["styles*"]
+    }
+  }
+}
+
